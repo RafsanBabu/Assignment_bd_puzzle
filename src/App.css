@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.process-section{
+    overflow: hidden;
+    height: auto;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.49)), to(rgba(0, 0, 0, 0.49))), url(../public/Assets/Home/Process-Managenment-SaleOptimize.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url(../public/Assets/Home/Process-Managenment-SaleOptimize.png);
+    background-position: 0px 0px, 100% 50%;
+    background-size: cover,contain;
+    background-repeat: no-repeat,no-repeat !important;
+}
+.home-section{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.49)), to(rgba(0, 0, 0, 0.49))), url(../public/Assets/Home/Rafsan_Ahmed.jpeg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url(../public/Assets/Home/Rafsan_Ahmed.jpeg);
+    background-position: 0px 0px, 80% 50%;
+    background-size: cover,contain;
+    background-repeat: no-repeat,no-repeat !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.phnImg img{
+    border-radius: 2%;
+    width: 500px;
+    height: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.personCard{
+    position: relative;
+    padding-left: 17px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #6f9bf1;
+    color: #fff;
+    line-height: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aboutMeSection{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.49)), to(rgba(0, 0, 0, 0.49))), url(../public/Assets/Home/aboutme.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url(../public/Assets/Home/aboutme.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    z-index: 100;
+    padding-right: 0px;
+    font-size: 1.3em;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    color: #999;
+}
+a{
+    text-decoration: none !important;
+
+}
+.link{
+    margin-top: 18px;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid #689af8;
+    border-left: 2px none #689af8;
+    transition: all 508ms cubic-bezier(.77, 0, .175, 1);
+    font-family: Gtwalsheimprotrial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 9px 15px;
+}
+.link:hover{
+    padding-left: 7px;
+    background-color: rgba(11, 39, 90, 0.24);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactSection{
+    overflow: hidden;
+    height: auto;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.49)), to(rgba(0, 0, 0, 0.49))), url(../public/Assets/Home/email.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url(../public/Assets/Home/email.png);
+    background-position: 0% 50%;
+    background-size: cover,contain;
+    background-repeat: no-repeat,no-repeat !important;
 }
